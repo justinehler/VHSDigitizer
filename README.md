@@ -46,6 +46,13 @@ The script creates:
 
 Open that `.app` to get proper camera and microphone permission prompts.
 
+To create a zip for GitHub Releases:
+
+```sh
+chmod +x package_release.sh
+./package_release.sh
+```
+
 ## Hardware Notes
 
 VHS capture quality depends heavily on the source hardware. Dropped frames, rolling video, unstable color, or audio drift can be caused by the VCR, tape condition, capture card, or analog signal timing.

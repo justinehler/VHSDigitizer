@@ -13,4 +13,6 @@ mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp "$BIN" "$APP/Contents/MacOS/VHSDigitizer"
 cp "$ROOT/Info.plist" "$APP/Contents/Info.plist"
 
+codesign --force --deep --sign - "$APP"
+
 echo "$APP"

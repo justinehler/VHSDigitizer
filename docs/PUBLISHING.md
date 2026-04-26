@@ -27,6 +27,20 @@ The generated app bundle is:
 
 For public downloads, sign and notarize the app before attaching it to a GitHub release.
 
+For a local zipped artifact:
+
+```sh
+./package_release.sh
+```
+
+The generated zip is:
+
+```text
+.build/dist/VHS-Digitizer-macOS.zip
+```
+
+The build script applies an ad-hoc signature so the app bundle is internally consistent. Public downloads should still use a Developer ID certificate and Apple notarization; otherwise Gatekeeper may warn that the app is damaged or cannot be opened after download.
+
 ## GitHub Repository Hygiene
 
 - Commit source files, docs, scripts, and assets.
