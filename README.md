@@ -22,8 +22,6 @@ VHS Digitizer is designed around common UVC-compatible USB capture cards that ex
 
 ![VHS Digitizer main window](docs/screenshots/main-window.png)
 
-See [docs/screenshots](docs/screenshots) for the suggested image list.
-
 ## Requirements
 
 - macOS 13 or newer.
@@ -46,13 +44,6 @@ The script creates:
 
 Open that `.app` to get proper camera and microphone permission prompts.
 
-To create a zip for GitHub Releases:
-
-```sh
-chmod +x package_release.sh
-./package_release.sh
-```
-
 ## Hardware Notes
 
 VHS capture quality depends heavily on the source hardware. Dropped frames, rolling video, unstable color, or audio drift can be caused by the VCR, tape condition, capture card, or analog signal timing.
@@ -67,10 +58,6 @@ For best results:
 ## Privacy
 
 VHS Digitizer processes video and audio locally on your Mac. It does not include analytics, telemetry, advertising, or upload behavior. See [PRIVACY.md](PRIVACY.md).
-
-## Publishing
-
-If you are publishing this project, use the `VHSDigitizer` folder as the repository root. See [docs/PUBLISHING.md](docs/PUBLISHING.md) for release notes, GitHub hygiene, and Mac App Store considerations.
 
 ## License
 
