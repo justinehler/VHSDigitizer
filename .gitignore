@@ -1,0 +1,17 @@
+.build/
+.swiftpm/
+.DS_Store
+**/.DS_Store
+*.xcuserstate
+*.xccheckout
+DerivedData/
+build/
+*.app
+*.dmg
+*.zip
+*.mov
+*.mp4
+*.m4v
+Recordings/
+Captures/
+!Package.resolved
